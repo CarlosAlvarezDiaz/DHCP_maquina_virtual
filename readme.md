@@ -40,3 +40,9 @@ Una vez configurado, debemos iniciar el servicio DHCP para que esté disponible 
 Es importante verificar que el servicio DHCP esté en ejecución y funcionando correctamente. Esto se realiza mediante el comando 'systemctl status'.
 
 ![arranque y comprobacion del servicio](https://github.com/CarlosAlvarezDiaz/DHCP_maquina_virtual/blob/94c1d15022209b92add4813660f694b51c010381/systemctl.png)
+
+## Paso 7: Prueba con un cliente
+
+Para confirmar que el servidor DHCP está asignando direcciones IP correctamente, conectaremos un cliente a la red y verificaremos si recibe una dirección IP dentro del rango especificado en la configuración.
+
+![prueba con cliente](https://github.com/CarlosAlvarezDiaz/DHCP_maquina_virtual/blob/3cbcaef7ed1151ebd97be8eb3eea1c75db00231a/cliente.png)
