@@ -52,3 +52,9 @@ Para confirmar que el servidor DHCP está asignando direcciones IP correctamente
 Podemos asignar direcciones IP fijas a dispositivos específicos basados en su dirección MAC. Esto garantiza que ciertos dispositivos siempre reciban la misma dirección IP, lo que puede ser útil para servidores o dispositivos de red críticos.
 
 ![asignacion direccion mac fija](https://github.com/CarlosAlvarezDiaz/DHCP_maquina_virtual/blob/14fb1a05d503ecf36de377b93494bef99fd9b339/ipfija.png)
+
+## Paso 9: Prueba con otro cliente
+
+Para verificar que la asignación de direcciones IP fijas funciona como se esperaba, conectaremos otro cliente a la red y confirmaremos que reciba la dirección IP fija especificada en la configuración.
+
+![prueba con otro cliente](https://github.com/CarlosAlvarezDiaz/DHCP_maquina_virtual/blob/8cb36d934ceedc846f184d7b679fe5b8a0b24a4b/clienteconipfija.png)
