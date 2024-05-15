@@ -30,3 +30,13 @@ Con el editor de texto abierto, declararemos la subnet con la siguiente configur
 Y finalmente para aplicar la configuración de nuestra subnet, debemos lanzar el siguiente comando
 
 ![netplan apply](https://github.com/CarlosAlvarezDiaz/DHCP_maquina_virtual/blob/bb09816dc444511cb199bc9360c9de9494f4a6c5/netplanapply.png)
+
+## Paso 5: Arranque del servicio DHCP
+
+Una vez configurado, debemos iniciar el servicio DHCP para que esté disponible para atender las solicitudes de los clientes en la red.
+
+## Paso 6: Comprobación del estado del servicio
+
+Es importante verificar que el servicio DHCP esté en ejecución y funcionando correctamente. Esto se realiza mediante el comando 'systemctl status'.
+
+![arranque y comprobacion del servicio](https://github.com/CarlosAlvarezDiaz/DHCP_maquina_virtual/blob/94c1d15022209b92add4813660f694b51c010381/systemctl.png)
