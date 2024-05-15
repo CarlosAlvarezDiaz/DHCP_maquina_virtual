@@ -58,3 +58,9 @@ Podemos asignar direcciones IP fijas a dispositivos específicos basados en su d
 Para verificar que la asignación de direcciones IP fijas funciona como se esperaba, conectaremos otro cliente a la red y confirmaremos que reciba la dirección IP fija especificada en la configuración.
 
 ![prueba con otro cliente](https://github.com/CarlosAlvarezDiaz/DHCP_maquina_virtual/blob/8cb36d934ceedc846f184d7b679fe5b8a0b24a4b/clienteconipfija.png)
+
+## Paso 10: Comprobación con Wireshark
+
+Wireshark es una herramienta de análisis de redes que nos permite capturar y analizar los mensajes del protocolo DHCP en la red. Utilizaremos Wireshark para verificar la comunicación entre el servidor DHCP y los clientes, asegurándonos de que todo funcione correctamente.
+
+![comprobacion con wireshark](https://github.com/CarlosAlvarezDiaz/DHCP_maquina_virtual/blob/8a448266c15fbc2e0ddd6711063c14730729b322/wireshark.png)
