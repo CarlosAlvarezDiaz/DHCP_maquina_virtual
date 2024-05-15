@@ -16,3 +16,17 @@ Es esencial configurar la interfaz de red que utilizará el servidor DHCP para e
 
 ![abrir el archivo de configuracion de la interfaz de red desde el editor de texto](https://github.com/CarlosAlvarezDiaz/DHCP_maquina_virtual/blob/af6b310c2452792e04887027a75ee2db39ec38f4/red.png)
 ![configuracion de la interfaz de red](https://github.com/CarlosAlvarezDiaz/DHCP_maquina_virtual/blob/af6b310c2452792e04887027a75ee2db39ec38f4/configuracionred.png)
+
+## Paso 4: Declaración de la subnet 172.16.0.0/16
+
+Para esto declararemos la subnet creando un netplan y abriendolo desde el editor de texto
+
+![abrir el netplan desde el editor de texto](https://github.com/CarlosAlvarezDiaz/DHCP_maquina_virtual/blob/bb09816dc444511cb199bc9360c9de9494f4a6c5/netplan.png)
+
+Con el editor de texto abierto, declararemos la subnet con la siguiente configuración
+
+![configuracion subnet](https://github.com/CarlosAlvarezDiaz/DHCP_maquina_virtual/blob/bb09816dc444511cb199bc9360c9de9494f4a6c5/declaracionsubnet.png)
+
+Y finalmente para aplicar la configuración de nuestra subnet, debemos lanzar el siguiente comando
+
+![netplan apply](https://github.com/CarlosAlvarezDiaz/DHCP_maquina_virtual/blob/bb09816dc444511cb199bc9360c9de9494f4a6c5/netplanapply.png)
