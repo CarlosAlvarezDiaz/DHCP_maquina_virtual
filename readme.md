@@ -46,3 +46,9 @@ Es importante verificar que el servicio DHCP esté en ejecución y funcionando c
 Para confirmar que el servidor DHCP está asignando direcciones IP correctamente, conectaremos un cliente a la red y verificaremos si recibe una dirección IP dentro del rango especificado en la configuración.
 
 ![prueba con cliente](https://github.com/CarlosAlvarezDiaz/DHCP_maquina_virtual/blob/3cbcaef7ed1151ebd97be8eb3eea1c75db00231a/cliente.png)
+
+## Paso 8: Asignación por dirección MAC fija
+
+Podemos asignar direcciones IP fijas a dispositivos específicos basados en su dirección MAC. Esto garantiza que ciertos dispositivos siempre reciban la misma dirección IP, lo que puede ser útil para servidores o dispositivos de red críticos.
+
+![asignacion direccion mac fija](https://github.com/CarlosAlvarezDiaz/DHCP_maquina_virtual/blob/14fb1a05d503ecf36de377b93494bef99fd9b339/ipfija.png)
