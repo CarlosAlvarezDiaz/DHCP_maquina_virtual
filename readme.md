@@ -64,3 +64,7 @@ Para verificar que la asignación de direcciones IP fijas funciona como se esper
 Wireshark es una herramienta de análisis de redes que nos permite capturar y analizar los mensajes del protocolo DHCP en la red. Utilizaremos Wireshark para verificar la comunicación entre el servidor DHCP y los clientes, asegurándonos de que todo funcione correctamente.
 
 ![comprobacion con wireshark](https://github.com/CarlosAlvarezDiaz/DHCP_maquina_virtual/blob/8a448266c15fbc2e0ddd6711063c14730729b322/wireshark.png)
+
+### Conclusión de la práctica
+
+Este proceso de configuración y pruebas nos proporciona una comprensión profunda del funcionamiento del servidor DHCP y su papel fundamental en la administración de redes informáticas.
